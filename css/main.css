@@ -1,0 +1,227 @@
+/***** BASE STYLES *****/
+
+/***** Source Sans Pro link in index.HTML *****/
+
+body {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    clear: both;
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+/***** Overflow auto & clear used to clear floats *****/
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/****** HEADER HOME PAGE ******/
+
+header {
+    background: url('../img/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Ovo';
+    font-size: 65px;
+    line-height: normal;
+    padding: 50px 0 20px 25px;
+    width: 950px;
+}
+
+/***** Link for Lora font in index.HTML *****/
+
+header h2 span {
+     color: #2b2b2b
+ }
+
+nav {
+    float: right;
+    padding: 60px 5px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #9b9b9b;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    padding-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** No text decoration used to remove underline of nav links *****/
+
+/***** ABOUT HOME PAGE SECTION *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Quicksand', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-family: 'Quicksand';
+    font-size: 21px;
+    line-height: 40px; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** WORK HOME PAGE SECTION *****/
+
+#work {
+        background-color: #ffffff;
+        text-align: center;
+}
+
+#work .full-width {
+        padding: 115px 0;
+}
+
+#work img {
+        padding-bottom: 30px;
+}
+
+#work h3 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 auto;
+        width: 190px;
+}
+
+#work p {
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 50px;
+        width: 320px;
+}
+
+/***** CONTACT HOME PAGE SECTION *****/
+
+#contact {
+        background-color: #ffffff;
+}
+
+#contact .full-width {
+        padding: 110px 0;
+}
+
+#contact img#contact-img {
+        border: 12px solid #73553C;
+        margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+        padding-left: 115px;
+}
+
+#contact #envelope {
+        padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+        font-family: 'Quicksand', serif;
+        font-size: 36px;
+        line-height: 44px;
+}
+
+#contact #email-header {
+        font-size: 32px;
+        font-family: 'Quicksand';
+        font-weight: normal;
+        line-height: 44px;
+        margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+        font-family: 'Quicksand';
+        font-weight: bold;
+        font-size: 29px;
+        line-height: 44px;
+        margin: 40px 0 0 0;
+}
+
+#contact a {
+        color: #73553C;    
+        font-weight: bold;
+        font-size: 28px;
+        text-decoration: none;
+}
+
+#contact ul {
+        list-style: none;
+}
+
+#contact ul li {
+        display: inline-block;
+}
+
+#contact ul img {
+        padding-right: 48px;
+}
+
+/**** ABOUT NEW PAGE*****/
+
+#new-about {
+        background: url('../img/about-background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+    }
+
+/***** PORTFOLIO NEW PAGE *****/
+
+#new-portfolio {
+        background: url('../img/portfolio-background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 800px;  
+}
+
+#adventures .full-width{
+        margin: 0px 0 100px 150px;
+}
+
+/***** CONTACT NEW PAGE *****/
+
+#new-contact {
+        background: url('../img/contact-background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 800px;  
+}
+
+#portfolio-contact {
+        background-color: #73553C;
+        clear: both;
+        height: 200px;
+        overflow: auto;
+}
